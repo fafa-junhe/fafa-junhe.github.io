@@ -1,3 +1,3 @@
 git add .
 git commit -m "update"
-git push origin gh-pages
+proxychains4 git push origin gh-pages
