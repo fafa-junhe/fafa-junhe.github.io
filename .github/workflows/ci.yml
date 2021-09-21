@@ -17,6 +17,6 @@ jobs:
           python-version: 3.x
       - run: pip install mkdocs-material 
 
-
-      - run: echo "fafa.junhe.work" > CNAME
+      - run: mkdir site
+      - run: echo "fafa.junhe.work" > site/CNAME
       - run: mkdocs gh-deploy --force
